@@ -4,444 +4,248 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Savitri & Satyavan | Mahabharata</title>
+    <title>Philosophical Foundations of Love & Truth | Group 13</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- 3D GRAND ENTRANCE DOOR OVERLAY -->
+    <div id="doorOverlay" class="door-overlay">
+        <!-- LEFT DOOR PANEL -->
+        <div class="door-panel door-left">
+            <div class="door-inner">
+                <div class="door-carving">🪷</div>
+                <div class="door-brass-ring"></div>
+                <div class="door-pattern"></div>
+            </div>
+        </div>
+
+        <!-- RIGHT DOOR PANEL -->
+        <div class="door-panel door-right">
+            <div class="door-inner">
+                <div class="door-carving">🪷</div>
+                <div class="door-brass-ring"></div>
+                <div class="door-pattern"></div>
+            </div>
+        </div>
+
+        <!-- CENTER EMBLEM & ENTER CARD -->
+        <div class="door-center-card">
+            <div class="door-om-badge">ॐ</div>
+            <div class="door-group-tag">GROUP 13 • UNIVERSAL HUMAN VALUES</div>
+            <h1 class="door-main-title">Philosophical Foundations of Love & Truth</h1>
+            <p class="door-subtitle">According to Indian Philosophy</p>
+            
+            <button id="openDoorBtn" class="open-door-btn">
+                <span>🚪 CLICK TO OPEN THE DOORS OF WISDOM</span>
+            </button>
+            <p class="door-hint">✨ An interactive journey through 7 sacred tales</p>
+        </div>
+    </div>
+
     <!-- NAVBAR -->
     <header class="navbar">
-        <div class="logo">ॐ <span>Savitri & Satyavan</span></div>
+        <div class="logo">ॐ <span>Group 13</span></div>
 
         <nav>
-            <a href="#story">Story</a>
-            <a href="#characters">Characters</a>
-            <a href="#journey">Journey</a>
-            <a href="#values">Values</a>
+            <a href="index.html" class="active">Home</a>
+            <div class="nav-dropdown">
+                <a href="#stories" class="dropdown-trigger">7 Stories ▼</a>
+                <div class="dropdown-menu">
+                    <a href="satyakama.html">1. Satyakāma Jābāla</a>
+                    <a href="harishchandra.html">2. King Harishchandra</a>
+                    <a href="nachiketa.html">3. Nachiketa</a>
+                    <a href="rantideva.html">4. Rantideva</a>
+                    <a href="shibi.html">5. Shibi & the Dove</a>
+                    <a href="krishna-sudama.html">6. Krishna & Sudama</a>
+                    <a href="savitri-satyavan.html">7. Savitri & Satyavan</a>
+                </div>
+            </div>
+            <a href="#members">Group Members</a>
+            <a href="#stories">Explore Stories</a>
+            <a href="#philosophy">Core Matrix</a>
             <a href="#reflection">Reflection</a>
         </nav>
 
-        <button id="themeBtn">☾</button>
+        <div style="display:flex; gap:10px; align-items:center;">
+            <button id="reopenDoorBtn" class="reopen-gate-btn">🚪 Gate</button>
+            <button id="themeBtn">☾</button>
+        </div>
     </header>
 
 
-    <!-- HERO -->
+    <!-- HERO SECTION -->
     <section class="hero">
 
         <div class="hero-content">
 
-            <p class="eyebrow">THE MAHABHARATA • VANA PARVA</p>
+            <div class="project-badge">
+                UNIVERSAL HUMAN VALUES (UHV) • GROUP 13
+            </div>
 
-            <h1>
-                SAVITRI
-                <span>&</span>
-                SATYAVAN
+            <h1 class="main-title">
+                Philosophical Foundations of Love & Truth
+                <span class="sub-title">According to Indian Philosophy</span>
             </h1>
 
             <p class="subtitle">
-                A timeless story of love, courage, wisdom and unwavering determination.
+                An interactive exploration of <strong>Satya (Truth)</strong> and <strong>Prema / Eros (Love)</strong> through 7 foundational stories from the Upanishads, Mahabharata, and Bhagavata Purana.
             </p>
 
-            <a href="#story" class="hero-btn">
-                Explore the Story ↓
-            </a>
+            <div class="hero-buttons">
+                <a href="#stories" class="hero-btn">
+                    Explore 7 Stories ↓
+                </a>
+                <a href="#members" class="hero-btn secondary-btn">
+                    View Group Members
+                </a>
+            </div>
 
         </div>
 
         <div class="hero-quote">
             <p>
-                “True love is not merely the bond between two people;
-                it is the courage to stand together against adversity.”
+                “Satyam Eva Jayate — Truth alone triumphs; Prema Eva Paramam — Unconditional Love is the supreme virtue.”
             </p>
         </div>
 
     </section>
 
 
-    <!-- INTRO -->
+    <!-- PROJECT OVERVIEW -->
     <section class="intro">
 
-        <p class="section-label">AN ANCIENT TALE</p>
+        <p class="section-label">UNIVERSAL HUMAN VALUES</p>
 
-        <h2>A story beyond love</h2>
+        <h2>Satya & Prema: The Twin Pillars</h2>
 
         <p>
-            The story of Savitri and Satyavan appears in the
-            <strong>Vana Parva</strong> of the Mahabharata.
-            It tells the story of a woman whose wisdom, devotion and
-            determination enabled her to confront Yama, the lord of death.
+            In Indian philosophy, <strong>Satya (Truth)</strong> and <strong>Prema (Love)</strong> are not abstract concepts, but living dimensions of human consciousness and social harmony.
         </p>
 
         <p>
-            More than a story of marital devotion, it explores
-            <strong>Dharma, Truth, Courage, Love and Human Determination.</strong>
+            From the unwavering honesty of <em>Satyakāma Jābāla</em> to the fearless love of <em>Savitri confronting Death</em>, this website presents <strong>7 distinct philosophical stories</strong> presented by <strong>7 group members of Group 13</strong>.
         </p>
 
     </section>
 
 
-    <!-- STORY -->
-    <section id="story" class="section">
+    <!-- GROUP MEMBERS SECTION -->
+    <section id="members" class="section members-section">
 
-        <p class="section-label">THE STORY</p>
+        <p class="section-label">PROJECT CONTRIBUTORS</p>
 
-        <h2>From destiny to determination</h2>
-
-        <div class="story-grid">
-
-            <article class="story-card">
-                <span>01</span>
-                <h3>Savitri chooses Satyavan</h3>
-                <p>
-                    Savitri, the daughter of King Ashwapati, chooses
-                    Satyavan as her husband despite learning that
-                    he is destined to die within a year.
-                </p>
-            </article>
-
-            <article class="story-card">
-                <span>02</span>
-                <h3>The day arrives</h3>
-                <p>
-                    One year after their marriage, Satyavan goes
-                    into the forest with Savitri. There, his
-                    predicted death occurs.
-                </p>
-            </article>
-
-            <article class="story-card">
-                <span>03</span>
-                <h3>Savitri follows Yama</h3>
-                <p>
-                    Yama appears and takes Satyavan's soul.
-                    Savitri follows him, speaking with wisdom,
-                    humility and remarkable determination.
-                </p>
-            </article>
-
-            <article class="story-card">
-                <span>04</span>
-                <h3>The power of wisdom</h3>
-                <p>
-                    Impressed by Savitri's conduct and wisdom,
-                    Yama grants her several boons.
-                </p>
-            </article>
-
-            <article class="story-card">
-                <span>05</span>
-                <h3>The final boon</h3>
-                <p>
-                    Savitri asks for the restoration of her
-                    family line. Her request creates a situation
-                    in which Satyavan's life must also be restored.
-                </p>
-            </article>
-
-            <article class="story-card highlight-card">
-                <span>06</span>
-                <h3>Satyavan returns</h3>
-                <p>
-                    Savitri returns to Satyavan and finds him
-                    alive. Her perseverance has overcome what
-                    appeared to be an unavoidable fate.
-                </p>
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- CHARACTERS -->
-    <section id="characters" class="section characters-section">
-
-        <p class="section-label">THE CHARACTERS</p>
-
-        <h2>Those who shaped the story</h2>
-
-        <div class="character-grid">
-
-            <div class="character">
-                <div class="character-symbol">🌸</div>
-                <h3>Savitri</h3>
-                <p>
-                    A woman of extraordinary courage, wisdom,
-                    devotion and determination.
-                </p>
-                <div class="tags">
-                    <span>Courage</span>
-                    <span>Wisdom</span>
-                    <span>Love</span>
-                </div>
-            </div>
-
-            <div class="character">
-                <div class="character-symbol">🌿</div>
-                <h3>Satyavan</h3>
-                <p>
-                    A virtuous prince living in exile,
-                    remembered for his righteousness and goodness.
-                </p>
-                <div class="tags">
-                    <span>Virtue</span>
-                    <span>Dharma</span>
-                    <span>Integrity</span>
-                </div>
-            </div>
-
-            <div class="character">
-                <div class="character-symbol">⚖️</div>
-                <h3>Yama</h3>
-                <p>
-                    The lord of death who represents Dharma,
-                    cosmic order and justice.
-                </p>
-                <div class="tags">
-                    <span>Dharma</span>
-                    <span>Justice</span>
-                    <span>Order</span>
-                </div>
-            </div>
-
-            <div class="character">
-                <div class="character-symbol">👑</div>
-                <h3>Dyumatsena</h3>
-                <p>
-                    Satyavan's father, an exiled king who
-                    eventually regains his sight and kingdom.
-                </p>
-                <div class="tags">
-                    <span>Family</span>
-                    <span>Duty</span>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- JOURNEY -->
-    <section id="journey" class="journey">
-
-        <div class="journey-content">
-
-            <p class="section-label">THE JOURNEY</p>
-
-            <h2>When love walked beyond fear</h2>
-
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <div class="dot">1</div>
-                    <div>
-                        <h3>Choice</h3>
-                        <p>Savitri chooses Satyavan with full awareness of his destiny.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="dot">2</div>
-                    <div>
-                        <h3>Commitment</h3>
-                        <p>She remains beside him despite knowing the danger ahead.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="dot">3</div>
-                    <div>
-                        <h3>Loss</h3>
-                        <p>Satyavan dies, fulfilling the prophecy.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="dot">4</div>
-                    <div>
-                        <h3>Confrontation</h3>
-                        <p>Savitri follows Yama and engages him through wisdom rather than force.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="dot">5</div>
-                    <div>
-                        <h3>Restoration</h3>
-                        <p>Savitri's intelligence and perseverance ultimately lead to Satyavan's return.</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- YAMA SECTION -->
-    <section class="dialogue">
-
-        <p class="section-label">THE CONVERSATION</p>
-
-        <h2>Savitri & Yama</h2>
-
-        <div class="dialogue-box">
-
-            <div class="dialogue-person savitri">
-                <h3>🌸 Savitri</h3>
-                <p>
-                    She does not fight Yama physically.
-                    Instead, she uses reason, humility,
-                    truth and wisdom.
-                </p>
-            </div>
-
-            <div class="versus">VS</div>
-
-            <div class="dialogue-person yama">
-                <h3>⚖️ Yama</h3>
-                <p>
-                    He represents the inevitable law of
-                    death and Dharma, testing Savitri's
-                    wisdom and resolve.
-                </p>
-            </div>
-
-        </div>
-
-        <p class="dialogue-conclusion">
-            <strong>The lesson:</strong> Wisdom and righteousness
-            can be more powerful than physical strength.
-        </p>
-
-    </section>
-
-
-    <!-- VALUES -->
-    <section id="values" class="section">
-
-        <p class="section-label">UHV CONNECTION</p>
-
-        <h2>Philosophical foundations</h2>
+        <h2>Group 13 Members</h2>
 
         <p class="section-intro">
-            The story can be understood through several values
-            that are central to Universal Human Values.
+            Each member of our group has researched, presented, and analyzed a foundational story illustrating the philosophical depth of Love and Truth.
         </p>
 
-        <div class="values-grid">
+        <!-- MEMBER CARDS GRID -->
+        <div class="member-grid">
 
-            <div class="value-card">
-                <div>❤️</div>
-                <h3>Love</h3>
-                <p>
-                    Love is expressed through commitment,
-                    care and responsibility rather than
-                    mere emotion.
-                </p>
+            <!-- MEMBER 1 -->
+            <div class="member-card">
+                <div class="member-num">01</div>
+                <div class="member-avatar">🧘‍♂️</div>
+                <h3>Member 1 Name</h3>
+                <p class="roll-no">Roll No: 2024UHV101</p>
+                <div class="assigned-story">
+                    <span class="story-tag">Story 1</span>
+                    <h4>Satyakāma Jābāla</h4>
+                    <p class="story-desc">Truthfulness despite uncertainty (Chandogya Upanishad)</p>
+                </div>
+                <a href="satyakama.html" class="member-link-btn">Open Story Page →</a>
             </div>
 
-            <div class="value-card">
-                <div>🪷</div>
-                <h3>Truth</h3>
-                <p>
-                    Savitri faces reality directly instead
-                    of escaping from an uncomfortable truth.
-                </p>
+            <!-- MEMBER 2 -->
+            <div class="member-card">
+                <div class="member-num">02</div>
+                <div class="member-avatar">👑</div>
+                <h3>Member 2 Name</h3>
+                <p class="roll-no">Roll No: 2024UHV102</p>
+                <div class="assigned-story">
+                    <span class="story-tag">Story 2</span>
+                    <h4>King Harishchandra</h4>
+                    <p class="story-desc">Truth despite suffering (Puranic Tradition)</p>
+                </div>
+                <a href="harishchandra.html" class="member-link-btn">Open Story Page →</a>
             </div>
 
-            <div class="value-card">
-                <div>⚔️</div>
-                <h3>Courage</h3>
-                <p>
-                    She faces death itself without surrendering
-                    to fear.
-                </p>
+            <!-- MEMBER 3 -->
+            <div class="member-card">
+                <div class="member-num">03</div>
+                <div class="member-avatar">🔥</div>
+                <h3>Member 3 Name</h3>
+                <p class="roll-no">Roll No: 2024UHV103</p>
+                <div class="assigned-story">
+                    <span class="story-tag">Story 3</span>
+                    <h4>Nachiketa & Yama</h4>
+                    <p class="story-desc">Courage to seek the Truth (Katha Upanishad)</p>
+                </div>
+                <a href="nachiketa.html" class="member-link-btn">Open Story Page →</a>
             </div>
 
-            <div class="value-card">
-                <div>☸️</div>
-                <h3>Dharma</h3>
-                <p>
-                    The story emphasizes duty, righteousness
-                    and living according to ethical principles.
-                </p>
+            <!-- MEMBER 4 -->
+            <div class="member-card">
+                <div class="member-num">04</div>
+                <div class="member-avatar">🌊</div>
+                <h3>Member 4 Name</h3>
+                <p class="roll-no">Roll No: 2024UHV104</p>
+                <div class="assigned-story">
+                    <span class="story-tag">Story 4</span>
+                    <h4>King Rantideva</h4>
+                    <p class="story-desc">Selfless Sacrifice & Compassion (Bhagavata Purana)</p>
+                </div>
+                <a href="rantideva.html" class="member-link-btn">Open Story Page →</a>
             </div>
 
-            <div class="value-card">
-                <div>🧠</div>
-                <h3>Wisdom</h3>
-                <p>
-                    Savitri uses thoughtful dialogue instead
-                    of anger or force.
-                </p>
+            <!-- MEMBER 5 -->
+            <div class="member-card">
+                <div class="member-num">05</div>
+                <div class="member-avatar">🕊️</div>
+                <h3>Member 5 Name</h3>
+                <p class="roll-no">Roll No: 2024UHV105</p>
+                <div class="assigned-story">
+                    <span class="story-tag">Story 5</span>
+                    <h4>Shibi & the Dove</h4>
+                    <p class="story-desc">Righteousness & Protection of Refuge (Mahabharata)</p>
+                </div>
+                <a href="shibi.html" class="member-link-btn">Open Story Page →</a>
             </div>
 
-            <div class="value-card">
-                <div>🤝</div>
-                <h3>Commitment</h3>
-                <p>
-                    Her relationship demonstrates steadfastness
-                    during the most difficult circumstances.
-                </p>
+            <!-- MEMBER 6 -->
+            <div class="member-card">
+                <div class="member-num">06</div>
+                <div class="member-avatar">🪈</div>
+                <h3>Member 6 Name</h3>
+                <p class="roll-no">Roll No: 2024UHV106</p>
+                <div class="assigned-story">
+                    <span class="story-tag">Story 6</span>
+                    <h4>Krishna & Sudama</h4>
+                    <p class="story-desc">Pure Friendship & Prema vs EROS (Bhagavata Purana)</p>
+                </div>
+                <a href="krishna-sudama.html" class="member-link-btn">Open Story Page →</a>
             </div>
 
-        </div>
-
-    </section>
-
-
-    <!-- MODERN RELEVANCE -->
-    <section class="modern">
-
-        <p class="section-label">THEN → NOW</p>
-
-        <h2>What does Savitri teach us today?</h2>
-
-        <div class="modern-grid">
-
-            <div>
-                <span>01</span>
-                <h3>Relationships</h3>
-                <p>
-                    Healthy relationships require understanding,
-                    responsibility and mutual respect.
-                </p>
-            </div>
-
-            <div>
-                <span>02</span>
-                <h3>Facing adversity</h3>
-                <p>
-                    Difficult situations require courage rather
-                    than helpless acceptance.
-                </p>
-            </div>
-
-            <div>
-                <span>03</span>
-                <h3>Communication</h3>
-                <p>
-                    Calm and respectful dialogue can be more
-                    powerful than confrontation.
-                </p>
-            </div>
-
-            <div>
-                <span>04</span>
-                <h3>Self-confidence</h3>
-                <p>
-                    Savitri demonstrates the strength that comes
-                    from clarity and conviction.
-                </p>
+            <!-- MEMBER 7 -->
+            <div class="member-card">
+                <div class="member-num">07</div>
+                <div class="member-avatar">🌸</div>
+                <h3>Member 7 Name</h3>
+                <p class="roll-no">Roll No: 2024UHV107</p>
+                <div class="assigned-story">
+                    <span class="story-tag">Story 7</span>
+                    <h4>Savitri & Satyavan</h4>
+                    <p class="story-desc">Love conquering Death & Wisdom (Mahabharata)</p>
+                </div>
+                <a href="savitri-satyavan.html" class="member-link-btn">Open Story Page →</a>
             </div>
 
         </div>
@@ -449,31 +253,251 @@
     </section>
 
 
-    <!-- REFLECTION -->
+    <!-- 7 STORIES SHOWCASE GRID -->
+    <section id="stories" class="section">
+
+        <p class="section-label">THE 7 IMMORTAL TALES</p>
+
+        <h2>Interactive Story Library</h2>
+
+        <p class="section-intro">
+            Click on any story card below to navigate to its dedicated interactive web page, complete with character maps, philosophical journey, UHV analysis, and reflection quizzes.
+        </p>
+
+        <div class="portal-grid">
+
+            <!-- STORY 1 -->
+            <article class="portal-card">
+                <div class="portal-header">
+                    <span class="portal-num">STORY 01</span>
+                    <span class="portal-source">Chāndogya Upanishad</span>
+                </div>
+                <h3>1. Satyakāma Jābāla</h3>
+                <p class="portal-subtitle font-gold">Truthfulness despite uncertainty</p>
+                <p class="portal-text">
+                    When asked about his unknown lineage by Sage Gautama, young Satyakāma spoke the truth without shame or hesitation, proving that moral truthfulness defines true seekerhood.
+                </p>
+                <div class="portal-tags">
+                    <span>Satya</span>
+                    <span>Honesty</span>
+                    <span>Integrity</span>
+                </div>
+                <a href="satyakama.html" class="portal-btn">Explore Satyakāma's Story →</a>
+            </article>
+
+            <!-- STORY 2 -->
+            <article class="portal-card">
+                <div class="portal-header">
+                    <span class="portal-num">STORY 02</span>
+                    <span class="portal-source">Puranic Tradition</span>
+                </div>
+                <h3>2. King Harishchandra</h3>
+                <p class="portal-subtitle font-gold">Truth despite suffering</p>
+                <p class="portal-text">
+                    Tested by Sage Vishwamitra, King Harishchandra gave up his kingdom, family, and freedom, enduring manual labor at the cremation ground to keep his promise of absolute Truth.
+                </p>
+                <div class="portal-tags">
+                    <span>Uncompromising Satya</span>
+                    <span>Fortitude</span>
+                    <span>Duty</span>
+                </div>
+                <a href="harishchandra.html" class="portal-btn">Explore Harishchandra's Story →</a>
+            </article>
+
+            <!-- STORY 3 -->
+            <article class="portal-card">
+                <div class="portal-header">
+                    <span class="portal-num">STORY 03</span>
+                    <span class="portal-source">Katha Upanishad</span>
+                </div>
+                <h3>3. Nachiketa & Yama</h3>
+                <p class="portal-subtitle font-gold">Courage to seek the Truth</p>
+                <p class="portal-text">
+                    Standing before Death himself, young Nachiketa rejected worldly riches, kingdoms, and sensory pleasures, demanding only the supreme Truth of the Atman (Self).
+                </p>
+                <div class="portal-tags">
+                    <span>Viveka</span>
+                    <span>Fearlessness</span>
+                    <span>Shreyas</span>
+                </div>
+                <a href="nachiketa.html" class="portal-btn">Explore Nachiketa's Story →</a>
+            </article>
+
+            <!-- STORY 4 -->
+            <article class="portal-card">
+                <div class="portal-header">
+                    <span class="portal-num">STORY 04</span>
+                    <span class="portal-source">Bhāgavata Purāṇa</span>
+                </div>
+                <h3>4. King Rantideva</h3>
+                <p class="portal-subtitle font-gold">Selfless Sacrifice & Compassion</p>
+                <p class="portal-text">
+                    After a 48-day fast during a drought, Rantideva gave away his last drop of water to a dying stranger, praying to bear all creatures' suffering instead of seeking personal heaven.
+                </p>
+                <div class="portal-tags">
+                    <span>Sarva-bhūta-hita</span>
+                    <span>Pure Prema</span>
+                    <span>Karuṇā</span>
+                </div>
+                <a href="rantideva.html" class="portal-btn">Explore Rantideva's Story →</a>
+            </article>
+
+            <!-- STORY 5 -->
+            <article class="portal-card">
+                <div class="portal-header">
+                    <span class="portal-num">STORY 05</span>
+                    <span class="portal-source">Mahabharata Tradition</span>
+                </div>
+                <h3>5. Shibi and the Dove</h3>
+                <p class="portal-subtitle font-gold">Righteousness & Duty to Protect</p>
+                <p class="portal-text">
+                    When a frightened dove sought shelter, King Shibi offered an equal weight of his own flesh to a hunting hawk to protect the refuge-seeker without causing starvation.
+                </p>
+                <div class="portal-tags">
+                    <span>Sharaṇāgati</span>
+                    <span>Dharma</span>
+                    <span>Sacrifice</span>
+                </div>
+                <a href="shibi.html" class="portal-btn">Explore Shibi's Story →</a>
+            </article>
+
+            <!-- STORY 6 -->
+            <article class="portal-card">
+                <div class="portal-header">
+                    <span class="portal-num">STORY 06</span>
+                    <span class="portal-source">Bhāgavata Purāṇa</span>
+                </div>
+                <h3>6. Krishna & Sudama</h3>
+                <p class="portal-subtitle font-gold">Pure Friendship (EROS vs PREMA)</p>
+                <p class="portal-text">
+                    King Krishna washed the feet of his impoverished childhood friend Sudama and cherished a handful of simple poha, showing that true love (Prema) transcends wealth and status.
+                </p>
+                <div class="portal-tags">
+                    <span>Sakhya-Bhava</span>
+                    <span>Prema over Eros</span>
+                    <span>Humility</span>
+                </div>
+                <a href="krishna-sudama.html" class="portal-btn">Explore Krishna & Sudama →</a>
+            </article>
+
+            <!-- STORY 7 -->
+            <article class="portal-card">
+                <div class="portal-header">
+                    <span class="portal-num">STORY 07</span>
+                    <span class="portal-source">Mahabharata • Vana Parva</span>
+                </div>
+                <h3>7. Savitri & Satyavan</h3>
+                <p class="portal-subtitle font-gold">Love conquering Death</p>
+                <p class="portal-text">
+                    Knowing her husband was fated to die in a year, Savitri used wisdom, devotion, and ethical dialogue to confront Yama and win back Satyavan's life.
+                </p>
+                <div class="portal-tags">
+                    <span>Wisdom</span>
+                    <span>Determination</span>
+                    <span>Prema</span>
+                </div>
+                <a href="savitri-satyavan.html" class="portal-btn">Explore Savitri & Satyavan →</a>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- PHILOSOPHICAL COMPARATIVE MATRIX -->
+    <section id="philosophy" class="section matrix-section">
+
+        <p class="section-label">COMPARATIVE ANALYSIS</p>
+
+        <h2>Philosophical Foundations Matrix</h2>
+
+        <p class="section-intro">
+            How each of the 7 stories addresses core aspects of Indian Philosophy and Universal Human Values (UHV):
+        </p>
+
+        <div class="matrix-wrapper">
+            <table class="matrix-table">
+                <thead>
+                    <tr>
+                        <th>Story / Topic</th>
+                        <th>Primary Value</th>
+                        <th>Core Challenge</th>
+                        <th>Philosophical Resolution</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>1. Satyakāma Jābālā</strong></td>
+                        <td><span class="badge-truth">Truth (Satya)</span></td>
+                        <td>Unknown lineage & social prejudice</td>
+                        <td>Honesty defines true character and wisdom</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2. King Harishchandra</strong></td>
+                        <td><span class="badge-truth">Absolute Truth</span></td>
+                        <td>Severe suffering & loss of kingdom</td>
+                        <td>Truthfulness is binding even in extreme adversity</td>
+                    </tr>
+                    <tr>
+                        <td><strong>3. Nachiketa & Yama</strong></td>
+                        <td><span class="badge-truth">Discernment (Viveka)</span></td>
+                        <td>Material temptations & mortality</td>
+                        <td>Choosing Shreyas (Truth) over Preyas (Pleasure)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>4. King Rantideva</strong></td>
+                        <td><span class="badge-love">Universal Compassion</span></td>
+                        <td>48-day starvation during drought</td>
+                        <td>Sarva-bhūta-hita: Selfless love for all beings</td>
+                    </tr>
+                    <tr>
+                        <td><strong>5. Shibi & the Dove</strong></td>
+                        <td><span class="badge-love">Protection (Sharaṇāgati)</span></td>
+                        <td>Ethical conflict between hawk & dove</td>
+                        <td>Sacrificing own flesh to fulfill moral duty</td>
+                    </tr>
+                    <tr>
+                        <td><strong>6. Krishna & Sudama</strong></td>
+                        <td><span class="badge-love">Prema over Eros</span></td>
+                        <td>Disparity in social status & wealth</td>
+                        <td>Pure spiritual friendship transcends ego & riches</td>
+                    </tr>
+                    <tr>
+                        <td><strong>7. Savitri & Satyavan</strong></td>
+                        <td><span class="badge-love">Wisdom & Determination</span></td>
+                        <td>Confronting inevitable death</td>
+                        <td>Truthful speech & devotion transform destiny</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+
+    <!-- REFLECTION SECTION -->
     <section id="reflection" class="reflection">
 
-        <p class="section-label">REFLECT</p>
+        <p class="section-label">FRONT PAGE QUIZ</p>
 
-        <h2>What would you do?</h2>
+        <h2>Test Your Understanding of Indian Philosophy</h2>
 
         <p class="question">
-            If you knew that someone you deeply cared about
-            was facing an unavoidable difficulty, what would
-            you choose?
+            According to Indian Philosophy, what is the fundamental difference between EROS (Kāma) and PREMA (Selfless Love)?
         </p>
 
         <div class="choices">
 
-            <button onclick="showAnswer(1)">
-                Accept it silently
+            <button onclick="showHomeAnswer(1)">
+                Eros is for kings, while Prema is for monks
             </button>
 
-            <button onclick="showAnswer(2)">
-                Fight without thinking
+            <button onclick="showHomeAnswer(2)">
+                There is no difference between them in Upanishadic thought
             </button>
 
-            <button onclick="showAnswer(3)">
-                Face it with courage and wisdom
+            <button onclick="showHomeAnswer(3)">
+                Eros seeks self-satisfaction; Prema seeks the ultimate well-being and truth of the other
             </button>
 
         </div>
@@ -483,22 +507,18 @@
     </section>
 
 
-    <!-- FINAL QUOTE -->
+    <!-- FINAL CALLOUT -->
     <section class="final">
 
         <div class="lotus">🪷</div>
 
         <h2>
-            “Courage does not always mean
-            fighting against destiny.
-            Sometimes, it means facing it
-            with wisdom.”
+            “Truth is one; the wise speak of it in many ways.”
         </h2>
+        <p style="margin-top:10px; font-style:italic; color:#c59545;">— Rig Veda (Ekam Sat Vipra Bahudha Vadanti)</p>
 
         <p>
-            Savitri's story continues to remind us
-            that love, truth, courage and wisdom
-            can transform the way we face life.
+            Explore all 7 stories crafted by Group 13 to discover how ancient Indian wisdom illuminates modern human values.
         </p>
 
     </section>
@@ -507,16 +527,16 @@
     <!-- FOOTER -->
     <footer>
 
-        <h3>SAVITRI & SATYAVAN</h3>
+        <h3>GROUP 13 • INDIAN PHILOSOPHY & UHV</h3>
 
         <p>
-            A UHV Project • Indian Philosophy & Human Values
+            Philosophical Foundations of Love and Truth according to Indian Philosophy
         </p>
 
         <div class="footer-line"></div>
 
         <p class="copyright">
-            © 2026 | Designed for Educational Purpose
+            © 2026 Group 13 | Universal Human Values Project | All Rights Reserved
         </p>
 
     </footer>
